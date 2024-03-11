@@ -1,4 +1,4 @@
-# CleanDrive - Locadora de Carros Elétricos =
+# CleanDrive - Locadora de Carros Elétricos
 
 `Análise e Desenvolvimento de Sistemas`
 
