@@ -10,12 +10,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-Caíque Rodrigues Soares
-Douglas Pereira da Silva Santos
-Douglas Sandro dos Santos Araújo
-Isaque Ferreira de Araújo
-Maria Luiza Mourão Louzada de Oliveira
-Josef Félix Vieira
+*Caíque Rodrigues Soares
+*Douglas Pereira da Silva Santos
+*Douglas Sandro dos Santos Araújo
+*Isaque Ferreira de Araújo
+*Maria Luiza Mourão Louzada de Oliveira
+*Josef Félix Vieira
 
 ## Orientador
 
