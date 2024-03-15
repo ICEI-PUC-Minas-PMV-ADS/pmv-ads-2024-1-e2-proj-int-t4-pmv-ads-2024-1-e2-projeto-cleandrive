@@ -24,12 +24,19 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A Partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Luciana Silva | Diminuir a emissão de CO₂.         | Evitar mudanças climáticas.           |
+|Cristina Fiorentini      | Me locomover com mais praticidade em minhas viagens, porém sem impactar negativamente o meio ambiente.             | Para conhecer mais lugares em menos tempo, preservando a paisagem, para poder conhecer cada vez mais lugares. |
+|Larissa Araújo  | Uma forma sustentável de levar meus filhos para suas atividades, sem causar impactos negativos no ar.  | Poder aproveitar mais tempo ao lado da minha família ao ar livre sem me preocupar em gastar horas me locomovendo para as atividades das crianças.          |
+|Cristina Fiorentini      | Me locomover com mais praticidade em minhas viagens, porém sem impactar negativamente o meio ambiente.             | Para conhecer mais lugares em menos tempo, preservando a paisagem, para poder conhecer cada vez mais lugares. |
+|Cliente|Ter informações detalhadas sobre carros elétricos, benefícios e pontos de recarga. |Saber o melhor carro para cada ocasião.|
+|Cliente|Conectar-se com as locadoras parceiras para verificar a disponibilidade em tempo real. |Facilidade e praticidade na contratação..|
+|Cliente|Filtrar informações sobre modelos, preços e disponibilidade. |Encontrar o melhor modelo para o meu caso. |
+|Administrador|Visualizar e filtrar o perfil e histórico de clientes. |Permitir identificar produtos e campanhas mais relevantes e contribuir para satisfação e fidelização.|
+|Administrador|Permitir que os usuários se cadastrem, criem contas e façam login. |Ter  registro dos usuários da aplicação.|
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
