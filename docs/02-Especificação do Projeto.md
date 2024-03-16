@@ -75,8 +75,8 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
-|ID     | Descrição do Requisito                                                                                      |Prioridade |
-|-------|-------------------------------------------------------------------------------------------------------------|-----------|
+|ID    | Descrição do Requisito                                                                                       |Prioridade |
+|------|--------------------------------------------------------------------------------------------------------------|-----------|
 |RNF-01| O site deve ser responsivo e possuir uma interface de fácil utilização em dispositivos móveis e desktop.     |   Alta    |
 |RNF-02| O sistema deve responder de forma ágil.                                                                      |   Alta    |
 |RNF-03| O site deve proporcionar segurança na transmissão de dados (HTTPS).                                          |   Média   |
