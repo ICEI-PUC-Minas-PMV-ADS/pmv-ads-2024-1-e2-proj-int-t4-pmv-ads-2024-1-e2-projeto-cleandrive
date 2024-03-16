@@ -5,20 +5,78 @@
 A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foram consolidados através da participação dos usuários em um trabalho de imersão e pesquisa feita pelos membros da equipe, a partir da observação dos usuários e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários
 
 ## Personas
+As personas levantadas durante o processo de entendimento do problema são apresentadas nas Figuras que se seguem.
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+|![persona1](![Screenshot_20240316_192747_Docs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/145178305/09f0a29b-a33b-422c-9c36-2676107fefde)
+)| **Luciana Silva** |      
+|------------------------------|------|------|
+| **Idade:** 35 anos **ocupação:**  Engenheira ambiental e ativista.| **Aplicativos:** 
+•Instagram;
+•Tiktok. |
+| **Motivações:** 
+•Contribuir ativamente para a redução de emissões poluentes e promover um estilo de vida sustentavél.	| **Frustrações:**  
+•Falta de opções sustentáveis no cotidiano, pouca conscientização sobre praticas ambientais. | **Hobbies, História:** 
+•Participação em eventos ambientais, leitura de literatura sustentável;
+•Luciana decidiu dedicar a carreira à engenharia ambiental e agora busca maneiras práticas de incorporar a sustentabilidade em sua vida diária. |
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+|![persona2](![Screenshot_20240316_192755_Docs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/145178305/025c162f-244b-4ec2-aa08-5b15d2c67c46)
+) | **Carlos Eduardo** |      
+|------------------------------|------|------|
+| **Idade:** 40 anos **ocupação:**  Comerciante do ramo de Suplementos alimentares que trabalha com delivery.| **Aplicativos:** 
+•Apps de gestão empresarial;
+•Plataforma de mobilidade urbana;
+•Plataformas de deliverys. |
+| **Motivações:** •Eficiência, modernidade;
+•Atendimento ao publico/clientes.	| **Frustrações:**  
+•Falta de soluções inovadoras no transito urbano;
+•Falta de opções de carros que além de atenderem a demanda não poluem o meio ambiente. | **Hobbies, História:** 
+•Networking  empresarial, participação em eventos de inovação.
+•Carlos busca constantemente modernizar seus negocios e adotar práticas sustentáveis  para se alinhar às expectativas do mercado. |
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+|![persona3](![Screenshot_20240316_192802_Docs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/145178305/72311068-f3f1-457f-86f1-2986af357605)
+)| **Cristina Fiorentini** |     
+|------------------------------|------|------|
+| **Idade:** 28 anos **ocupação:**  Blogueira de viagens e influenciadora digital.| **Aplicativos:** 
+•Instagram;
+•Tiktok;
+•Aplicativos de planejamento de viagem. |
+| **Motivações:** 
+•Explorar novos destinos de forma sustentável;
+•Promover a preservação ambiental durante suas jornadas.	| **Frustrações:**  
+•Impacto ambiental do turismo convencional;
+•Falta de opções eco-friendly. | **Hobbies, História:** 
+•Fotografia, trilhas, participação em eventos de sustentabilidade;
+•Cristina compartilha suas experiências de viagem nas redes sociais e procura maneiras de tornar suas aventuras mais ecoconscientes. |
+
+|![persona4](![Screenshot_20240316_192809_Docs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/145178305/0dfd9955-1d0b-471a-924a-ff4bd3daad4b)
+) | **Rafael Arcoverde** |      
+|------------------------------|------|------|
+| **Idade:** 23 anos **ocupação:**  Motorista de aplicativo e universitário.| **Aplicativos:** 
+•Instagram
+•Facebook
+•Whatsapp |
+| **Motivações:** 
+•Reduzir os níveis de poluição;
+•Reduzir despesas com combustível, e manutenção. | **Frustrações:**  
+•Dificuldade de ter acesso aos carros elétricos. | **Hobbies, História:** 
+•Praticar esportes, como: futebol e corrida;
+•Jogos digitais online;
+•Tecnologia. |
+
+|![persona5](![Screenshot_20240316_192815_Docs](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/145178305/94f90eba-c533-4e42-a9d8-72bd6167fddc)
+) | **Larissa Araujo** |      
+|------------------------------|------|------|
+| **Idade:** 32 anos **ocupação:**  Profissional ativa e mãe de dois filhos.| **Aplicativos:** 
+•Instagram
+•Apps de Organização familiar.
+•Plataforma de consciência ambiental. |
+| **Motivações:** 
+•Garantir um ambiente mais limpo para seus filhos.
+•Contribuir para um futuro sustentável.	| **Frustrações:**  
+•Poluição do ar nas cidades;
+•Falta de medidas eficazes para melhorar a qualidade de vida urbana. | **Hobbies, História:** 
+•Atividades ao ar livre em família, participação em grupos de pais engajados;
+•Larissa procura maneiras de interagir com outras pessoas e conscientizá-las sobre preservação ambiental. |
 
 ## Histórias de Usuários
 
