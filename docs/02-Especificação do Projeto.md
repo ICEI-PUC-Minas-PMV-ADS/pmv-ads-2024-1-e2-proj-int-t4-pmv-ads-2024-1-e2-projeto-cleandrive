@@ -49,52 +49,53 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
+
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA | 
-|RF-002| A aplicação deve emitir um relatório de tarefas realizadas no mês   | MÉDIA |
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
+
+|ID      | Descrição do Requisito                                                                            | Prioridade |
+|--------|---------------------------------------------------------------------------------------------------|------------|
+| RF-01  | O site deve apresentar uma tela de cadastro de novos usuários.                                    |   Alta     |
+| RF-02  | O site deve apresentar uma tela de login para usuários já cadastrados.                            |   Alta     | 
+| RF-03  | O site deve permitir ao usuário realizar uma pesquisa de carros disponíveis para locação.         |   Alta     |
+| RF-04  | O site deve permitir ao usuário visualizar o histórico de reservas realizadas por ele.            |   Média    | 
+| RF-05  | O site deve realizar o cálculo de tarifas e apresentar opções de pagamento.                       |   Alta     |
+| RF-06  | O site deve permitir visualizar as informações de contatos e suporte online para tirar dúvidas.   |   Média    |
+| RF-07  | O site deve enviar uma notificação de confirmação de reserva para o email do locatário.           |   Média    |
+| RF-08  | O site deve apresentar um mapa para localização de pontos de retirada e devolução dos veículos.   |   Alta     |
+| RF-09  | O site deve fornecer relatório simples de consumo de energia.                                     |   Baixa    |
+| RF-10  | O site deve permitir ao usuário deixar avaliações e feedbacks pós-locação.                        |   Média    |
+| RF-11  | O site deve impedir o cadastro de menores de idade, pessoas que não possuem CNH, etc.             |   Alta     |
+
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+|ID     | Descrição do Requisito                                                                                      |Prioridade |
+|-------|-------------------------------------------------------------------------------------------------------------|-----------|
+|RNF-01| O site deve ser responsivo e possuir uma interface de fácil utilização em dispositivos móveis e desktop.     |   Alta    |
+|RNF-02| O sistema deve responder de forma ágil.                                                                      |   Alta    |
+|RNF-03| O site deve proporcionar segurança na transmissão de dados (HTTPS).                                          |   Média   |
+|RNF-04| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).|   Alta    |
+|RNF-05| O site deve possuir opções para diferentes idiomas, bem como hora de retirada e entrega do veículo.          |   Média   |
+|RNF-06| O site deve ser desenvolvido de forma sustentável.                                                           |   Alta    |
+|RNF-07| O site deve ser integrado com as principais redes sociais (Instagram, tiktok, WhatsApp, etc.)                |   Baixa   |
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID| Restrição                                                                                          |
+|--|------------------------------------------------------------------------------------------------    |
+|01| O projeto deverá ser entregue até o final do semestre letivo, não podendo extrapolar 23/06/2024    |
+|02| Toda a equipe precisa participar de forma uniforme                                                 |
+|03| A equipe não pode sublocar o desenvolvimento do trabalho.                                          |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
@@ -104,11 +105,3 @@ Como atores é importante a identificação dos grupos de todos os envolvidos qu
 
 Em relação aos casos de uso, eles devem representar as interações ou transações dos atores com o sistema. Cada tipo possível é representada por uma elipse nomeada e os relacionamentos são indicados por linhas que podem ter setas nos casos em que se indica a origem da interação. Os nomes dos casos de uso representam verbos no infinitivo associados aos objetos com os quais se relacionam os verbos (ex. Cadastrar usuário, Visualizar relatório). Os tipos de relacionamentos mais comuns são associações entre atores e casos de uso, generalizações entre atores e entre casos de uso, inclusões e extensão entre casos de uso.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
