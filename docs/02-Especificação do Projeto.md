@@ -79,6 +79,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 | RF-09| O site deve fornecer relatório simples de consumo de energia.                                     |   Baixa    |
 | RF-10| O site deve permitir ao usuário deixar avaliações e feedbacks pós-locação.                        |   Média    |
 | RF-11| O site deve impedir o cadastro de menores de idade, pessoas que não possuem CNH, etc.             |   Alta     |
+| RF-12| O site deve apresentar vantagens competitivas de carros elétricos sobre carros a combustão.       |   Alta     |
 
 
 ### Requisitos não Funcionais
