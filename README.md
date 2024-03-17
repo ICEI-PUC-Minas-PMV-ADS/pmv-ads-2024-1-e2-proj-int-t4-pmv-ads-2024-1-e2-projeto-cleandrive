@@ -6,7 +6,7 @@
 
 `Eixo 2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Aplicação web interativa de uma locadora de veículos elétricos.
 
 ## Integrantes
 
