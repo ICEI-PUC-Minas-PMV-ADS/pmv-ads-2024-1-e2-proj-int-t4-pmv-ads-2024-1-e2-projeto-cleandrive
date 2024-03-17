@@ -1,6 +1,7 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+<p align="justify">Pré-requisitos:<a href="https://docs.google.com/document/d/1UIHUnBbdBquC9prb2chKclMEQTAs3cKu/edit"> <ins>Documentação de Contexto</ins></a>
+</p>
 
 <p align="justify"> A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foram consolidados através da participação dos usuários em um trabalho de imersão e pesquisa feita pelos membros da equipe, a partir da observação dos usuários e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 </p>
