@@ -63,7 +63,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito                                                                            | Prioridade |
 |------|---------------------------------------------------------------------------------------------------|------------|
-| RF-01| O site deve apresentar uma tela de cadastro de novos usuários.                                    |   Alta     |
+| RF-01| O site deve apresentar uma tela de cadastro de usuários.                                          |   Alta     |
 | RF-02| O site deve apresentar uma tela de login para usuários já cadastrados.                            |   Alta     | 
 | RF-03| O site deve permitir ao usuário realizar uma pesquisa de carros disponíveis para locação.         |   Alta     |
 | RF-04| O site deve permitir ao usuário visualizar o histórico de reservas realizadas por ele.            |   Média    | 
@@ -71,10 +71,8 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 | RF-06| O site deve permitir visualizar as informações de contatos e suporte online para tirar dúvidas.   |   Média    |
 | RF-07| O site deve enviar uma notificação de confirmação de reserva para o email do locatário.           |   Média    |
 | RF-08| O site deve apresentar um mapa para localização de pontos de retirada e devolução dos veículos.   |   Alta     |
-| RF-09| O site deve fornecer relatório simples de consumo de energia.                                     |   Baixa    |
+| RF-09| O site deve fornecer relatório de consumo de energia.                                             |   Baixa    |
 | RF-10| O site deve permitir ao usuário deixar avaliações e feedbacks pós-locação.                        |   Média    |
-| RF-11| O site deve impedir o cadastro de menores de idade, pessoas que não possuem CNH, etc.             |   Alta     |
-| RF-12| O site deve apresentar vantagens competitivas de carros elétricos sobre carros a combustão.       |   Alta     |
 
 
 ### Requisitos não Funcionais
