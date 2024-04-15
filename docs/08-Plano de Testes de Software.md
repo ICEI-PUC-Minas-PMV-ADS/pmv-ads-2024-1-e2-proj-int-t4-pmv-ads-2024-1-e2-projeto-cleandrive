@@ -5,14 +5,14 @@
 | **Caso de Teste** 	| **CT-01 – Tela de cadastro de usuários** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-01 - O site deve apresentar uma tela de cadastro de usuários. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
+| Objetivo do Teste 	|  Verificar se o usuário consegue se cadastrar na aplicação. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adefinir.com.br<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
 |  	|  	|
 | Caso de Teste 	| CT-02 – Efetuar login	|
-|Requisito Associado | RF-00Y	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
+|Requisito Associado | RF-02	- O site deve apresentar uma tela de login para usuários já cadastrados. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adefinir.com.br<br>  - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
 |Critério de Êxito | - O login foi realizado com sucesso. |
 
  
