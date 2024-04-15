@@ -26,13 +26,18 @@
 | Objetivo do Teste 	| Verificar se o histórico de reservas do usuário é exibido corretamente. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adefinir.com.br<br> - Fazer login<br> - Entrar na aba de "Histórico de reservas" <br> |
 |Critério de Êxito | - Mostrar todas reservas feita pelo usuário |
+|  	|  	|
+| **Caso de Teste** 	| **CT-05 – Cálculo de tarifas e opções de pagamento**	|
+|Requisito Associado | RF-05	-O site deve realizar o cálculo de tarifas e apresentar opções de pagamento.|
+| Objetivo do Teste 	| -Verificar se o sistema calcula corretamente o valor do aluguel e taxa<br> - Verificar se os métodos de pagamento disponíveis funcionam corretamente |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adefinir.com.br<br> - Fazer login<br> - Fazer uma reserva <br> |
+|Critério de Êxito | - Calcular o valor do aluguel corretamente, e processar a venda com o métodode pagamento selecionado. |
+|  	|  	|
+| **Caso de Teste** 	| **CT-06 – Informações de contato e suporte**	|
+|Requisito Associado | RF-06	-O site deve permitir visualizar as informações de contatos e suporte online para tirar dúvidas.|
+| Objetivo do Teste 	| - Vertificar se os usuários conseguem acessar as informações de contato e suporte online facilmente |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adefinir.com.br<br> - Clicar em a"Ajuda" <br> |
+|Critério de Êxito | - Usuário deve ter acesso ao suporte com poucos cliques. |
 
 
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
