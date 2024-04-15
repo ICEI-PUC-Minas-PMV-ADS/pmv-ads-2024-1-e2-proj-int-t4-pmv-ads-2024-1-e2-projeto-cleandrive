@@ -51,13 +51,13 @@
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adefinir.com.br<br> - Fazer login<br> - Entrar na aba "Minhas reservas" <br> |
 |Critério de Êxito | - Sistema mostrar corretamente o local de retirada e devolução.|
 |  	|  	|
-| **Caso de Teste** 	| **CT-09 – – Relatório de Consumo de Energia**	|
+| **Caso de Teste** 	| **CT-09  – Relatório de Consumo de Energia**	|
 |Requisito Associado | RF-09	- O site deve fornecer relatório  de consumo de energia.|
 | Objetivo do Teste 	| Verificar se o relatório de consumo de energia é gerado corretamente com base nos dados do veículo.|
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adefinir.com.br<br> - Acessar a aba"Nossa frota"<br> |
 |Critério de Êxito | - O sistema deve mostrar informações corretas sobre consumo de energia do veículo.|
 |  	|  	|
-| **Caso de Teste** 	| **CT-10 –  Relatório de Consumo de Energia**	|
+| **Caso de Teste** 	| **CT-10 –  Avaliações e feedbacks pós-locação**	|
 |Requisito Associado | RF-10	- O site deve permitir ao usuário deixar avaliações e feedbacks pós-locação.|
 | Objetivo do Teste 	| Verificar se os usuários conseguem enviar avaliações e feedbacks após a locação.|
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adefinir.com.br<br> - Acessar a aba "Minhas reservas" |
