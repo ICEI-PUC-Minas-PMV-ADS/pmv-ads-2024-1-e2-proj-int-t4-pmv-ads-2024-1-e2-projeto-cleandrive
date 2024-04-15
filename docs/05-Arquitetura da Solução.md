@@ -40,8 +40,8 @@ https://lucid.app/lucidchart/invitations/accept/inv_83515f88-29cb-42c4-9299-0be2
 **Html**,
 **css**,
 **JavaScript** e 
-*SQl**
-Todos dsesnvolvidos visual Studio & Code
+*SQl**. 
+Todos desenvolvidos no visual Studio & Code, bem como no Lucidchart.
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
