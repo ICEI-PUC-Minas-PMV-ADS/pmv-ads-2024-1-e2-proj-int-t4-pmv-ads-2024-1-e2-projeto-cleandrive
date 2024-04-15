@@ -18,7 +18,8 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-![trabalho2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144963868/45863442-8300-40e4-b1b9-737fed950274)
+![ER](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144963868/15f06ba2-895f-4d21-aa4e-ee7a959a20eb)
+
 
 
 ## Projeto da Base de Dados
