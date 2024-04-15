@@ -37,9 +37,9 @@ https://lucid.app/lucidchart/invitations/accept/inv_83515f88-29cb-42c4-9299-0be2
 ## Tecnologias Utilizadas
 
  Serão utilizadas diversas linguagens para que o projeto seja desenvolvido dentre elas:
-**Html**
-**css**
-**JavaScript**
+**Html**,
+**css**,
+**JavaScript** e 
 *SQl**
 Todos dsesnvolvidos visual Studio & Code
 
