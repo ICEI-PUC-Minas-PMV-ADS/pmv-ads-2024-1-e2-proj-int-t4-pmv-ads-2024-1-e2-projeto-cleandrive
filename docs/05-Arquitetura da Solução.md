@@ -40,7 +40,7 @@ https://lucid.app/lucidchart/invitations/accept/inv_83515f88-29cb-42c4-9299-0be2
 *SQl**. 
 Todos desenvolvidos no visual Studio & Code, bem como no Lucidchart.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+![INTERAÇÃO USUÁRIO](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/4c92778e-8681-4af7-b1c7-44acaa725dc5)
 
 ## Hospedagem
 
