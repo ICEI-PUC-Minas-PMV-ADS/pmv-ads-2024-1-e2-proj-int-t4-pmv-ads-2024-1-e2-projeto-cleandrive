@@ -26,7 +26,11 @@ A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
 ## Projeto da Base de Dados
 
 Para definir o processo de banco de dados analisamos os requisitos necessários para apoiar os processos do negocio. Por isso buscamos dados essenciais para criação dos usuários e identificação dos nossos clientes.
- 
+
+
+
+ ![banco de dados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/b4522970-83fb-481c-a3ec-8b130accc4d9)
+
 
 https://lucid.app/lucidchart/invitations/accept/inv_83515f88-29cb-42c4-9299-0be2ff341e75
 
