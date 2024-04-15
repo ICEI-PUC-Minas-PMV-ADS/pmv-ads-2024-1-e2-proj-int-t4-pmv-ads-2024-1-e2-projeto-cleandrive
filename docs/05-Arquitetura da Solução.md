@@ -46,5 +46,5 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 > **Links Úteis**:
 >
-> - [Website com GitHub Pages](https://pages.github.com/)
+> - https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/blob/main/docs/05-Arquitetura%20da%20Solu%C3%A7%C3%A3o.md
 
