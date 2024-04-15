@@ -57,7 +57,7 @@
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adefinir.com.br<br> - Acessar a aba"Nossa frota"<br> |
 |Critério de Êxito | - O sistema deve mostrar informações corretas sobre consumo de energia do veículo.|
 |  	|  	|
-| **Caso de Teste** 	| **CT-10 – – Relatório de Consumo de Energia**	|
+| **Caso de Teste** 	| **CT-10 –  Relatório de Consumo de Energia**	|
 |Requisito Associado | RF-10	- O site deve permitir ao usuário deixar avaliações e feedbacks pós-locação.|
 | Objetivo do Teste 	| Verificar se os usuários conseguem enviar avaliações e feedbacks após a locação.|
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adefinir.com.br<br> - Acessar a aba "Minhas reservas" |
