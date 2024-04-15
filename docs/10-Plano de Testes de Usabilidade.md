@@ -1,22 +1,9 @@
 # Plano de Testes de Usabilidade
 
-Escala de avaliação
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/90990861/a27cad1f-7316-410c-b8f1-242caec289fe)
 
-É uma ferramenta que permite atribuir uma pontuação ou classificação a diferentes
-aspectos da usabilidade de um sistema, como parte de uma avaliação mais ampla.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/90990861/2f761901-abe9-446d-a794-7a9fff811d49)
 
-| Escala | Discriminação |
-| Nível 0 | Não é encarado necessariamente como um problema de
-usabilidade. |
-| Nivel 1 | Problema estético que não tem necessidade de ser corrigido, a
-menos que haja tempo e recurso disponível. |
-| Nível 2 | Pequeno problema com baixa prioridade na correção. |
-| Nível 3 | Problema com alta prioridade de correção. |
-| Nível 4 | Catástrofe de usabilidade, ou seja, o produto só será liberado se a
-correção for feita. |
 
-Avaliação das heurísticas
 
-As heurísticas de usabilidade são diretrizes gerais que podem ser aplicadas para avaliar a
-qualidade de uma interface de usuário.
-Tela: Tela de reserva de carro
+
