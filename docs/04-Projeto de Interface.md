@@ -13,7 +13,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
  
 ## Wireframes
 
-<p align="justify">A figura  exibe o fluxo de interação do usuário através das telas do sistema. Na próxima seção, detalharemos cada uma dessas telas no contexto de um protótipo de alta fidelidade. Para experimentar, acesse o <a href="https://www.figma.com/proto/oqV6Al6TTAbTWW3oDAlW0l/Clean-Drive?type=design&node-id=0-1&t=PYTigpV5pO4vqKZI-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2"> <ins>Protótipo do projeto</ins></a>
+<p align="justify">A figura  exibe o fluxo de interação do usuário através das telas do sistema. Para experimentar, acesse o <a href="https://www.figma.com/proto/oqV6Al6TTAbTWW3oDAlW0l/Clean-Drive?type=design&node-id=0-1&t=PYTigpV5pO4vqKZI-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2"> <ins>Protótipo do projeto</ins></a>
 </p>
 
 ![projeto1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144382841/22f3f25e-389a-4eef-811b-484e4fb7acf1)
