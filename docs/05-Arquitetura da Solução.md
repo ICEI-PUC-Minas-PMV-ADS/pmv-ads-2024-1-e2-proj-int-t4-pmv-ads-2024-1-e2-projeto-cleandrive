@@ -27,13 +27,9 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 Para definir o processo de banco de dados analisamos os requisitos necessários para apoiar os processos do negocio. Por isso buscamos dados essenciais para criação dos usuários e identificação dos nossos clientes.
 
 
+## Tecnologias Utilizadas![Projeto Banco de Dados CleanDrive1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/85b865e9-9258-4729-8f47-578bea569005)
 
- ![banco de dados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/b4522970-83fb-481c-a3ec-8b130accc4d9)
 
-
-https://lucid.app/lucidchart/invitations/accept/inv_83515f88-29cb-42c4-9299-0be2ff341e75
-
-## Tecnologias Utilizadas
 
  Serão utilizadas diversas linguagens para que o projeto seja desenvolvido dentre elas:
 **Html**,
