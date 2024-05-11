@@ -6,7 +6,7 @@
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-01 - O site deve apresentar uma tela de cadastro de usuários. |
  Tela de Cadastro de usuários| http://127.0.0.1:5500/cadastro.html<br> | | Todos os dados necessários
- para cadastrar um novo usário/cliente.
+ Para cadastrar um novo usário/cliente apto para fazer login. | Nome , CPF/CNPJ , Cep , Senha e demais.
 |  	|  	|
 | **Caso de Teste** 	| **CT-02 – Efetuar login**	|
 |Requisito Associado | RF-02	- O site deve apresentar uma tela de login para usuários já cadastrados. |
