@@ -5,7 +5,8 @@
 | **Caso de Teste** 	| **CT-01 – Tela de cadastro de usuários** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-01 - O site deve apresentar uma tela de cadastro de usuários. |
- http://127.0.0.1:5500/cadastro.html<br> 
+ Tela de Cadastro de usuários| http://127.0.0.1:5500/cadastro.html<br> | Consta todos os dados necessários
+ para cadastrar um novo usário/cliente.
 |  	|  	|
 | **Caso de Teste** 	| **CT-02 – Efetuar login**	|
 |Requisito Associado | RF-02	- O site deve apresentar uma tela de login para usuários já cadastrados. |
