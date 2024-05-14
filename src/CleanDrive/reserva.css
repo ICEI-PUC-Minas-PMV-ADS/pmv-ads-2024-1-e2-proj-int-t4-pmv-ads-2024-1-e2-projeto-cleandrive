@@ -1,0 +1,143 @@
+* {
+  font-family:  Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(180deg, #A9E4AE 63.44%, #FFFFFF 98.77%);
+  padding: 20px; 
+}
+body{
+  font-family: Arial, sans-serif;
+background-color: #01c38e;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  flex: 1; 
+  max-width: 100px; 
+}
+
+.nav-container {
+  display: flex; 
+  justify-content: flex-end; 
+  align-items: center; 
+}
+
+.navbar {
+  padding: 0 20px;
+}
+
+.navlist {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.navitens {
+  margin: 0 10px;
+}
+
+.navitens a {
+  text-decoration: none;
+  color: rgba(44, 52, 73, 1);
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.navitens a:hover {
+  background-color: rgba(44, 52, 73, 0.1);
+  border-color: rgba(44, 52, 73, 0.3);
+}
+
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="time"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+ 
+.footer-box {
+  background-color: #040028;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-box img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.media img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+      display: block;
+      margin-top: 10px;
+  }
+
+  .navlist {
+      justify-content: center;
+  }
+
+  .navitens {
+      margin: 0 10px;
+  }
+}
