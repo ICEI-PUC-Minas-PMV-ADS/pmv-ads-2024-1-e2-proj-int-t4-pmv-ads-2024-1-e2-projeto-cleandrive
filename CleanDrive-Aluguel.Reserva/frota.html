@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa frota | CleanDrive</title>
+    <meta name="keywords" content="aluguel, carros, carros elétricos">
+    <meta name="description" content="CleanDrive - Site">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/logo.png">
+    <link href="frota.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <a href="http://127.0.0.1:5500/index.html"><img class="logo" src="/assets/logo.png" alt="Logo CleanDrive"></a>
+            <nav class="navbar">
+                <ul class="navlist">
+                    <li class="navitens"><a href="#">CONTATO</a></li>
+                    <li class="navitens"><a href="#">AJUDA</a></li>
+                    <li class="navitens"><a href="#">|</a></li>
+                    <li class="navitens"><a href="#">MINHAS RESERVAS</a></li>
+                    <li class="navitens"><a href="#">ENTRAR</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-bar">
+                <img src="/assets/bars-solid.svg" alt="Menu">
+            </div>
+        </div>
+        <div class="barra">
+            <form id="searchForm">
+                <div class="form-group">
+                    <label for="localRetirada">Local de Retirada:</label>
+                    <input type="text" id="localRetirada" placeholder="Digite o local de retirada">
+                </div>
+                <div class="form-group">
+                    <label for="dataHoraRetirada">Data e Hora de Retirada:</label>
+                    <input type="datetime-local" id="dataHoraRetirada" required>
+                </div>
+                <div class="form-group">
+                    <label for="dataHoraDevolucao">Data e Hora de Devolução:</label>
+                    <input type="datetime-local" id="dataHoraDevolucao" required>
+                </div>
+            </form>
+        </div>
+        <h2>NOSSA FROTA</h2>
+    </header>
+
+    <div class="conteudo">
+        <div class="card-section">
+            <div class="card">
+                <h2>Carro 1</h2>
+                <div class="card-img">
+                    <img class="main-img" src="/assets/audi.jpg" alt="Imagem do carro">
+                </div>
+                <div class="card-icons">
+                    <div class="icons">
+                        <img src="/assets/user-solid.svg" alt="Passageiros">
+                        <p>4</p>
+                        <img src="/assets/suitcase-solid.svg" alt="Malas">
+                        <p>2</p>
+                        <img src="/assets/plug-solid.svg" alt="Autonomia">
+                        <p>300km</p>
+                    </div>
+                </div>
+                <div class="card-price" data-price="150">
+                    <p>R$ 50,00 / dia</p>
+                </div>
+                <div class="card-button">
+                    <button type="button" onclick="calculateDaysAndCost()">CONFIRMAR RESERVA</button>
+                </div>
+                <p id="result"></p>
+            </div>
+
+            <div class="card">
+                <h2>Carro 2</h2>
+                <div class="card-img">
+                    <img class="main-img" src="/assets/bmw.jpg" alt="Imagem do carro">
+                </div>
+                <div class="card-icons">
+                    <div class="icons">
+                        <img src="/assets/user-solid.svg" alt="Passageiros">
+                        <p>4</p>
+                        <img src="/assets/suitcase-solid.svg" alt="Malas">
+                        <p>2</p>
+                        <img src="/assets/plug-solid.svg" alt="Autonomia">
+                        <p>300km</p>
+                    </div>
+                </div>
+                <div class="card-price" data-price="150">
+                    <p>R$ 50,00 / dia</p>
+                </div>
+                <div class="card-button">
+                    <button type="button" onclick="calculateDaysAndCost()">CONFIRMAR RESERVA</button>
+                </div>
+                <p id="result"></p>
+            </div>
+
+            <div class="card">
+                <h2>Carro 3</h2>
+                <div class="card-img">
+                    <img class="main-img" src="/assets/unknow.jpg" alt="Imagem do carro">
+                </div>
+                <div class="card-icons">
+                    <div class="icons">
+                        <img src="/assets/user-solid.svg" alt="Passageiros">
+                        <p>4</p>
+                        <img src="/assets/suitcase-solid.svg" alt="Malas">
+                        <p>2</p>
+                        <img src="/assets/plug-solid.svg" alt="Autonomia">
+                        <p>300km</p>
+                    </div>
+                </div>
+                <div class="card-price" data-price="150">
+                    <p>R$ 50,00 / dia</p>
+                </div>
+                <div class="card-button">
+                    <button type="button" onclick="calculateDaysAndCost()">CONFIRMAR RESERVA</button>
+                </div>
+                <p id="result"></p>
+            </div>
+
+            <div class="card">
+                <h2>Carro 4</h2>
+                <div class="card-img">
+                    <img class="main-img" src="/assets/mercedes.jpg" alt="Imagem do carro">
+                </div>
+                <div class="card-icons">
+                    <div class="icons">
+                        <img src="/assets/user-solid.svg" alt="Passageiros">
+                        <p>4</p>
+                        <img src="/assets/suitcase-solid.svg" alt="Malas">
+                        <p>2</p>
+                        <img src="/assets/plug-solid.svg" alt="Autonomia">
+                        <p>300km</p>
+                    </div>
+                </div>
+                <div class="card-price" data-price="150">
+                    <p>R$ 50,00 / dia</p>
+                </div>
+                <div class="card-button">
+                    <button type="button" onclick="calculateDaysAndCost()">CONFIRMAR RESERVA</button>
+                </div>
+                <p id="result"></p>
+            </div>
+
+            <div class="card">
+                <h2>Carro 5</h2>
+                <div class="card-img">
+                    <img class="main-img" src="/assets/audi.jpg" alt="Imagem do carro">
+                </div>
+                <div class="card-icons">
+                    <div class="icons">
+                        <img src="/assets/user-solid.svg" alt="Passageiros">
+                        <p>4</p>
+                        <img src="/assets/suitcase-solid.svg" alt="Malas">
+                        <p>2</p>
+                        <img src="/assets/plug-solid.svg" alt="Autonomia">
+                        <p>300km</p>
+                    </div>
+                </div>
+                <div class="card-price" data-price="150">
+                    <p>R$ 50,00 / dia</p>
+                </div>
+                <div class="card-button">
+                    <button type="button" onclick="calculateDaysAndCost()">CONFIRMAR RESERVA</button>
+                </div>
+                <p id="result"></p>
+            </div>
+
+            <div class="card">
+                <h2>Carro 6</h2>
+                <div class="card-img">
+                    <img class="main-img" src="/assets/bmw.jpg" alt="Imagem do carro">
+                </div>
+                <div class="card-icons">
+                    <div class="icons">
+                        <img src="/assets/user-solid.svg" alt="Passageiros">
+                        <p>4</p>
+                        <img src="/assets/suitcase-solid.svg" alt="Malas">
+                        <p>2</p>
+                        <img src="/assets/plug-solid.svg" alt="Autonomia">
+                        <p>300km</p>
+                    </div>
+                </div>
+                <div class="card-price" data-price="150">
+                    <p>R$ 50,00 / dia</p>
+                </div>
+                <div class="card-button">
+                    <button type="button" onclick="calculateDaysAndCost()">CONFIRMAR RESERVA</button>
+                </div>
+                <p id="result"></p>
+            </div>
+
+            <div class="card">
+                <h2>Carro 7</h2>
+                <div class="card-img">
+                    <img class="main-img" src="/assets/unknow.jpg" alt="Imagem do carro">
+                </div>
+                <div class="card-icons">
+                    <div class="icons">
+                        <img src="/assets/user-solid.svg" alt="Passageiros">
+                        <p>4</p>
+                        <img src="/assets/suitcase-solid.svg" alt="Malas">
+                        <p>2</p>
+                        <img src="/assets/plug-solid.svg" alt="Autonomia">
+                        <p>300km</p>
+                    </div>
+                </div>
+                <div class="card-price" data-price="150">
+                    <p>R$ 50,00 / dia</p>
+                </div>
+                <div class="card-button">
+                    <button type="button" onclick="calculateDaysAndCost()">CONFIRMAR RESERVA</button>
+                </div>
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-box">
+        <section class="footer-box">
+            <img src="/img pasta/logo CleanDrive.png" alt="" />
+        </section>
+        <section class="footer-box media">
+            <a href="https://www.tiktok.com/" target="_blank"><img src="/img pasta/tiktok.svg" alt="tiktok" /></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="/img pasta/instagram.svg" alt="instagram" /></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="/img pasta/facebook.svg" alt="facebook"/></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="/img pasta/youtube.svg" alt="youtube"/></a>
+            <a href="https://twitter.com/" target="_blank"><img src="/img pasta/X-twitter.svg" alt="twitter"/></a>     
+        </section>
+        <p>&copy; 2024 CleanDrive</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
