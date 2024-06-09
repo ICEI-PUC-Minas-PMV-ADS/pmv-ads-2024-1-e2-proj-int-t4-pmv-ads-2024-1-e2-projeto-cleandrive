@@ -9,6 +9,7 @@
  Para cadastrar um novo usário/cliente apto para fazer login. | Nome , CPF/CNPJ , Cep , Senha e demais.
  ![Screenshot_1]([![Captura de tela bd](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/aae9f33f-1c61-4161-90ba-34e843f205bb)
 )
+Apos cadastro esses dados vão pra um banco de dados , no navicat, onde ficam armazenados.
 
  
 |  	|  	|
