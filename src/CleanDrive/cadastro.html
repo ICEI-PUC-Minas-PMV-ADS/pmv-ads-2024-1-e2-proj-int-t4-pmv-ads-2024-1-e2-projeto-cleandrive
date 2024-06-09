@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cadastro de Clientes</title>
+<style>
+      body{
+      font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+      background-image: linear-gradient(180deg, rgba(14, 208, 140), white 50%);
+      height: 100vh;
+      width: 100%;
+    }
+   .container {
+    width: 350px;
+    padding: 50px;
+    background-color: rgb(89, 88, 98);
+    margin: 0 auto
+     }
+   input[type=text], input[type=email], input[type=tel], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin:  5px 0 22px 0;
+    display: inline-block;
+    background: #f1f1f1;
+   }
+   button{
+    background-color: #73df77;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    text-align: center;
+
+   }
+   button:hover {
+    opacity: 1;
+   }
+
+</style>
+</head>
+<body>
+
+  <div class="container">
+        <h2>Cadastro de Cliente</h2>
+        <form id="CadastroCliente" action="cadastro_cliente.php" method="post">
+            <input type="text" placeholder="Nome Completo" name="nome" required> 
+            <input type="text" name="cpfCnpj" placeholder="CPF / CNPJ" required>
+            <input type="password" id="password" placeholder="Cadastre sua senha" required>
+            <input type="text" placeholder="Cidade" name="cidade" required>
+            <input type="text" placeholder="CEP" name="cep" required>
+            <input type="tel" placeholder="Telefone" name="telefone" required>
+            <input type="email" placeholder="E-mail" name="e-mail" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    <script>
+         // Função de validação de CPF
+         function validaCPF(cpf) {
+          cpf = cpf.replace(/[^\d]+/g, ''); // Remove caracteres não numéricos
+          if (cpf.length !== 11 || /^(\d)\1{10}$/.test(cpf)) return false;
+
+          let soma = 0;
+          let resto;
+
+          for (let i = 1; i <= 9; i++) {
+              soma += parseInt(cpf.substring(i - 1, i)) * (11 - i);
+          }
+          resto = (soma * 10) % 11;
+          if (resto === 10 || resto === 11) resto = 0;
+          if (resto !== parseInt(cpf.substring(9, 10))) return false;
+
+          soma = 0;
+          for (let i = 1; i <= 10; i++) {
+              soma += parseInt(cpf.substring(i - 1, i)) * (12 - i);
+          }
+          resto = (soma * 10) % 11;
+          if (resto === 10 || resto === 11) resto = 0;
+          if (resto !== parseInt(cpf.substring(10, 11))) return false;
+
+          return true;
+      }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - CleanDrive</title>
+<style>
+    body 
+    {
+        font-family: Arial, sans-serif;
+        background-image: linear-gradient(180deg,rgba(14, 208, 140),white 50% );             
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+      
+    }
+    
+
+    .login-container {
+        background-color: rgb(72, 70, 77);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(41, 41, 45, 0.26);
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<div class="login-container">
+    <h2>Login - Clean Drive</h2>
+    <input type="text" id="cpfCnpj" placeholder="CPF ou CNPJ" required>
+    <input type="password" id="password" placeholder="Senha" required>
+    <button id="loginButton">Entrar</button>
+</div>
+
+<script>
+    // Função de validação de CPF/CNPJ (exemplo simplificado)
+    function validarCpfCnpj(valor) {
+        // Adicione aqui a lógica de validação de CPF/CNPJ
+        return true; // Retorne true se for válido, false caso contrário
+    }
+    
+    document.getElementById('loginButton').addEventListener('click', function() {
+        var cpfCnpj = document.getElementById('cpfCnpj').value;
+        var password = document.getElementById('password').value;
+    
+        if (cpfCnpj && password) {
+            if (validarCpfCnpj(cpfCnpj) && password.length >= 6) {
+                alert('Login bem-sucedido! Redirecionando para a página principal...');
+                window.location.href = 'sua_pagina_principal.html'; // Redireciona o usuário
+            } else {
+                alert('CPF/CNPJ ou senha inválidos. Por favor, verifique e tente novamente.');
+            }
+        } else {
+            alert('Por favor, preencha todos os campos.');
+        }
+    });
+    </script>
+</body>
+</html>
