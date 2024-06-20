@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CleanDrive | Carros Elétricos</title>
+    <meta name="description" content="CleanDrive" />
+    <link rel="stylesheet" href="contato.css" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <script src="contato.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="logo" src="assets/logocleandrive.png" alt="logoCleanDrive">
+            <nav class="navbar">
+                <ul class="navlist">
+                    <li class="navitens"><a href="contato.html">CONTATO</a></li>
+                    <li class="navitens"><a href="duvidas.html">DÚVIDAS</a></li>
+                    <li class="navitens"><a href="#">|</a></li>
+                    <li class="navitens"><a href="frota.html">MINHAS RESERVAS</a></li>
+                    <li class="navitens"><a href="login.html">ENTRAR</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-bar">
+                <img src="assets/bars-solid.svg" alt="menu">
+            </div>
+        </div>
+        <div class="barra">
+            <form id="searchForm">
+                <div class="form-group">
+                    <label for="localRetirada">Local de Retirada:</label>
+                    <input type="text" id="localRetirada" placeholder="Digite o local de retirada">
+                </div>
+                <div class="form-group">
+                    <label for="dataHoraRetirada">Data e Hora de Retirada:</label>
+                    <input type="datetime-local" id="dataHoraRetirada" required>
+                </div>
+                <div class="form-group">
+                    <label for="dataHoraDevolucao">Data e Hora de Devolução:</label>
+                    <input type="datetime-local" id="dataHoraDevolucao" required>
+                </div>
+                <button class="form-button" type="submit"><a href="#"><strong>BUSCAR</strong></a></button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <h1>CONTATO</h1>
+        <form id="formulario" class="form-contact" action="contatos.php" method="post" onsubmit="return validarFormulario()">
+            <input type="text" id="nome" name="nome" placeholder="Nome" required />
+            <input type="email" id="email" name="email" placeholder="E-mail" required />
+            <textarea id="mensagem" name="mensagem" cols="20" rows="14" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">ENVIAR</button>
+
+        </form>
+
+            <aside class="tel">
+            <h2>TELEFONES:</h2>
+            <div class="number">
+                <ul>
+                    <li><h3><span>(31)98765-1234</span></h3></li>
+                    <li><h3><span>(11)99765-4321</span></h3></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+</body>
+
+<footer class="footer-box">
+    <section class="footer-box">
+        <img src="assets/logorodape.jpg" alt="" />
+    </section>
+    <section class="footer-box media">
+        <a href=""><img src="assets/youtube.svg" alt="" /></a>
+        <a href=""><img src="assets/instagram.svg" alt="" /></a>
+        <a href=""><img src="assets/tiktok.svg" alt="" /></a>
+        <a href=""><img src="assets/facebook.svg" alt="" /></a>
+        <a href=""><img src="assets/twitter.svg" alt="" /></a>
+    </section>
+</footer>
+</html>
