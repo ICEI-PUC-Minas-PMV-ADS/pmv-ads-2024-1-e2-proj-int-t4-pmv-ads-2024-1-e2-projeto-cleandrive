@@ -11,7 +11,7 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
 |RF-001| A aplicação deve permitir que o desenvolvedor ultilize o codigo padrão css, salvo algumas mudanças, para todo o projeto.
-|RF-002| A aplicação deve permitir responsovodade ao projeto, sendo que o mesmo será utilizando em Celulares, tabletes e/ou Computadores.
+|RF-002| A aplicação deve permitir responsividade ao projeto, sendo que o mesmo será utilizando em Celulares, tabletes e/ou Computadores.
 
 # Instruções de acesso
 
