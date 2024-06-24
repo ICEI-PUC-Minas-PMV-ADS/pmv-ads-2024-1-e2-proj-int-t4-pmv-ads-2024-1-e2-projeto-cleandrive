@@ -17,7 +17,7 @@ Apos cadastro esses dados vão pra um banco de dados , no navicat, onde ficam ar
 |Requisito Associado | RF-02	- O site deve apresentar uma tela de login para usuários já cadastrados. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site http://127.0.0.1/pages/login.php<br> - Preencher o campo de e-mail <br> - Preencher o campo da senha com no mínimo 6 caracteres <br> - Clicar em "Login" |
- (![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/b36425b0-7850-4723-9cbe-fad47a1ffb80)
+ ([login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/b36425b0-7850-4723-9cbe-fad47a1ffb80)
  ([Login com dados do usário]![login com usuário](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/a24c8c5c-33c3-429d-9a5f-ca9a88a6706e)
 
 |Critério de Êxito | - O login foi realizado com sucesso. |
