@@ -27,8 +27,13 @@ Apos cadastro esses dados vão pra um banco de dados , no navicat, onde ficam ar
 |Requisito Associado | RF-03	- O site deve permitir ao usuário realizar uma pesquisa de carros disponíveis para locação.|
 | Objetivo do Teste 	| Verificar se os resultados da pesquisa correspondem aos critérios fornecidos pelo usuário. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adefinir.com.br<br> - Entrar na aba de "Nossa frota" <br> - Digitar o modelo desejado <br> - Clicar em "Pesquisar" |
+
 |Critério de Êxito | - Mostrar somente carros correspondentes aos filtros. |
-|  	|  	|
+
+|  	|  	| ![login realizado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/8c2ecc07-e6e0-4bf3-bb45-c31693c60b8c)
+![reserva 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/d16f2018-e5f7-4bc6-8936-4011385dd0c4)
+
+)
 | **Caso de Teste** 	| **CT-04 – Histórico de reservas**	|
 |Requisito Associado | RF-04	- O site deve permitir ao usuário visualizar o histórico de reservas realizadas por ele.|
 | Objetivo do Teste 	| Verificar se o histórico de reservas do usuário é exibido corretamente. |
