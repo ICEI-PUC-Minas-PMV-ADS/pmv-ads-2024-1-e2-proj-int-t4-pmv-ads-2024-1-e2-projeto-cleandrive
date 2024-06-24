@@ -7,7 +7,7 @@
 |	Requisito Associado 	| RF-01 - O site deve apresentar uma tela de cadastro de usuários. |
  Tela de Cadastro de usuários| http://127.0.0.1/html-csspuc/cadastro.html<br> | | Todos os dados necessários
  Para cadastrar um novo usário/cliente apto para fazer login. | Nome , CPF/CNPJ , Cep , Senha e demais.
- (![Captura de tela bd](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/aae9f33f-1c61-4161-90ba-34e843f205bb)
+ ![Captura de tela bd](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/aae9f33f-1c61-4161-90ba-34e843f205bb)
  
 Apos cadastro esses dados vão pra um banco de dados , no navicat, onde ficam armazenados.
 
@@ -17,11 +17,11 @@ Apos cadastro esses dados vão pra um banco de dados , no navicat, onde ficam ar
 |Requisito Associado | RF-02	- O site deve apresentar uma tela de login para usuários já cadastrados. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site http://127.0.0.1/pages/login.php<br> - Preencher o campo de e-mail <br> - Preencher o campo da senha com no mínimo 6 caracteres <br> - Clicar em "Login" |
- ([login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/b36425b0-7850-4723-9cbe-fad47a1ffb80)
- ([Login com dados do usário]![login com usuário](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/a24c8c5c-33c3-429d-9a5f-ca9a88a6706e)
+ ![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/b36425b0-7850-4723-9cbe-fad47a1ffb80)
+ ![Login com dados do usário]![login com usuário](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/a24c8c5c-33c3-429d-9a5f-ca9a88a6706e)
 
 |Critério de Êxito | - O login foi realizado com sucesso. |
-(![login realizado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/30731043-6bde-4eda-b087-55589aeb7d3d)
+![login realizado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/30731043-6bde-4eda-b087-55589aeb7d3d)
 |  	|  	|
 | **Caso de Teste** 	| **CT-03 – Pesquisa de carros disponíveis**	|
 |Requisito Associado | RF-03	- O site deve permitir ao usuário realizar uma pesquisa de carros disponíveis para locação.|
