@@ -42,9 +42,11 @@ Apos cadastro esses dados vão pra um banco de dados , no navicat, onde ficam ar
 ![reservas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/4e3f80c0-1fe3-4971-9460-e2177b414791)
 
 |  	|  	|
-| **Caso de Teste** 	| **CT-05 – Cálculo de tarifas e opções de pagamento**	|
-|Requisito Associado | RF-05	-O site deve realizar o cálculo de tarifas e apresentar opções de pagamento.|
-| Objetivo do Teste 	| Verificar se o sistema calcula corretamente o valor do aluguel e taxa. <br> - Verificar se os métodos de pagamento disponíveis funcionam corretamente. |
+| **Caso de Teste** 	| **CT-05 – Cálculo de tarifas**	|
+|Requisito Associado | RF-05	-O site deve realizar o cálculo de tarifas .|
+| Objetivo do Teste 	| Verificar se o sistema calcula corretamente o valor do aluguel e taxa. <br>. |
+![reservas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/b7339fe8-5679-434c-8299-178db8154810)
+
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adefinir.com.br<br> - Fazer login<br> - Fazer uma reserva <br> |
 |Critério de Êxito | - Calcular o valor do aluguel corretamente, e processar a venda com o métodode pagamento selecionado. |
 |  	|  	|
