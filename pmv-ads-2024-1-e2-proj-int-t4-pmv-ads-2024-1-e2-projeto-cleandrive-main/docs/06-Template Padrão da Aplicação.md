@@ -4,8 +4,8 @@
 
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
- ![Layout Padrão]![layout padrao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/536b3e99-fe0b-413b-b890-34ad3362066e)
-  ![Responsividade]![layout padrao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/536b3e99-fe0b-413b-b890-34ad3362066e)
+ [Layout Padrão]![layout padrao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/536b3e99-fe0b-413b-b890-34ad3362066e)
+ [Responsividade]![layout padrao](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-projeto-cleandrive/assets/144749545/536b3e99-fe0b-413b-b890-34ad3362066e)
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
